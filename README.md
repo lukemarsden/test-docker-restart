@@ -1,4 +1,5 @@
 ```
+docker build -t test-docker-restart .
 docker run --restart=always --name restarter -ti -v /tmp:/file test-docker-restart sh
 ```
 
